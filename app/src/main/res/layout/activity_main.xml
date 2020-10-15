@@ -8,10 +8,9 @@
 
 
     <Button
-        android:id="@+id/btn"
+        android:id="@+id/send"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:onClick="secondactivity"
         android:text="Click"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

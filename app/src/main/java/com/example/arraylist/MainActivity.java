@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 //code
                 Random random=new Random();
-                String n=names[random.nextInt()];
+                String n=names[random.nextInt(names.length)];
                 Intent intent = new Intent(MainActivity.this, com.example.arraylist.nextactivity.class);
                 intent.putExtra("friend",n);
                 startActivity(intent);
@@ -33,8 +33,5 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    public void gotosecondactivity(View view) {
 
-
-    }
 }
